@@ -14,8 +14,14 @@
     "require": {
         "php": ">=5.5.0",
         "symfony/framework-bundle": "~2.7|~3.0|~4.0",
-        "hautelook/templated-uri-router": "~2.0"
+        "hautelook/templated-uri-router": "dev-symfony4support"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mwadon/TemplatedUriRouter"
+        }
+    ],
     "autoload": {
         "psr-0": { "Hautelook\\TemplatedUriBundle": "" }
     },
