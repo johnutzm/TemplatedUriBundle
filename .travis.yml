@@ -48,6 +48,7 @@ install: composer update --prefer-dist --no-interaction $COMPOSER_FLAGS
 
 
 script:
+  - phpunit --version
   - phpunit --coverage-text
 
 notifications:
