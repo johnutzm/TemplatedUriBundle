@@ -30,6 +30,8 @@ matrix:
     # test the latest release (including beta releases)
     - php: 7.1
       env: DEPENDENCIES=beta
+    - php: 7.2
+      env: DEPENDENCIES=beta
   allow_failures:
     - php: hhvm
 
